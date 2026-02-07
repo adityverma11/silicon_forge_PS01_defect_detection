@@ -74,3 +74,4 @@ The ONNX model is imported into the NXP eIQ Toolkit for compatibility validation
 quantization, and deployment analysis targeting i.MX RT series devices.
 
 
+ONNX Link: [Link](https://github.com/adityverma11/silicon_forge_PS01_defect_detection/tree/main/ONNX_Material)
