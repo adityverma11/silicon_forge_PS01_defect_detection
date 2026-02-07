@@ -1,0 +1,7 @@
+NXP eIQ Toolkit Usage
+
+The trained model was exported to ONNX format and imported into the NXP eIQ Toolkit.
+
+The toolkit was used in software-only mode to verify the model graph and generate a model verification report.
+
+The detailed verification results are provided in the eIQ verification PDF included in this folder.
