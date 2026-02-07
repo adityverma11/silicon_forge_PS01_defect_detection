@@ -34,6 +34,22 @@ real-time inspection.
 
 Dataset ZIP: https://drive.google.com/file/d/1_XCpBISF7uaA3ktySa_VkIgcwFbjSI9O/view?usp=sharing
 
+Dataset Description:
+
+The current dataset consists of 792 SEM images organized into 8 classes
+for multi-class defect classification.
+
+At Phase 1, the dataset size is limited due to the difficulty of
+collecting labeled SEM defect images. Images have been gathered from
+multiple sources including GitHub repositories,
+public datasets (e.g., Kaggle), web searches(Google), and AI-generated samples(ChatGPT and Gemini).
+
+The dataset is planned to be expanded to at least 1200+ images in
+subsequent phases to improve class balance and model generalization.
+
+The available images are split into training, validation, and test sets
+and are provided as a ZIP file linked externally in this repository.
+
 
 ## Model Details
 - Architecture: MobileNetV3-Small
