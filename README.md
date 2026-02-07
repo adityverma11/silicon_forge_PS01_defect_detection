@@ -33,6 +33,7 @@ real-time inspection.
 - Train / Val / Test split: 70 / 15 / 15
 
 Dataset ZIP: [ZIP File](https://www.dropbox.com/scl/fi/5gejg72a12zbdfwi0tef8/dataset.zip?rlkey=6cctomvaarzlabdo2g5mlftuu&st=kqpaqpgo&dl=0)
+
 Dataset Description:
 
 The current dataset consists of 792 SEM images organized into 8 classes
