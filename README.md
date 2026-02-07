@@ -32,7 +32,7 @@ real-time inspection.
 - Input size: 160 × 160
 - Train / Val / Test split: 70 / 15 / 15
 
-Dataset ZIP:
+Dataset ZIP: https://drive.google.com/file/d/1_XCpBISF7uaA3ktySa_VkIgcwFbjSI9O/view?usp=sharing
 
 
 ## Model Details
