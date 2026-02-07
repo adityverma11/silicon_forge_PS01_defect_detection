@@ -188,7 +188,7 @@ with torch.no_grad():
         y_true.extend(y.numpy())
 
 
-# METRICS
+# METRICS....
 
 print("\nFINAL TEST ACCURACY:",
       np.mean(np.array(y_true) == np.array(y_pred)))

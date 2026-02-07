@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 import torch.backends.cudnn as cudnn
 
-#  CONFIG
+#  CONFIG....
 
 DATA_DIR = "dataset"
 BATCH_SIZE = 32

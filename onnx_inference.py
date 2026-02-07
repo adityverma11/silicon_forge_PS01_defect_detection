@@ -4,7 +4,7 @@ from PIL import Image
 from torchvision import transforms
 import gradio as gr
 
-# CONFIG 
+# CONFIG ....
 MODEL_PATH = "model.onnx"
 IMG_SIZE = 160
 
