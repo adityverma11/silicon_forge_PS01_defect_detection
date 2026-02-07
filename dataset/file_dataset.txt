@@ -1,0 +1,9 @@
+Dataset structure used:
+
+dataset/
+ ├── train/
+ ├── val/
+ └── test/
+
+Each folder contains 8 class subfolders:
+Scratch, Crack, LER, Vias, Open, Bridge, Clean, Other
