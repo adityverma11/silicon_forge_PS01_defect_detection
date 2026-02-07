@@ -33,7 +33,7 @@ real-time inspection.
 - Train / Val / Test split: 70 / 15 / 15
 
 Dataset ZIP:
-<PASTE GOOGLE DRIVE ZIP LINK HERE>
+
 
 ## Model Details
 - Architecture: MobileNetV3-Small
@@ -50,7 +50,7 @@ Dataset ZIP:
 - Recall: 82
 - Average inference latency: 72 ms per image (CPU)
 
-Confusion matrix is available in the `evaluation/` folder.
+Confusion matrix is available in the `Validation\` folder.
 
 ## ONNX & Edge Deployment
 The trained PyTorch model is exported to ONNX format for edge deployment.
@@ -58,7 +58,7 @@ The ONNX model is imported into the NXP eIQ Toolkit for compatibility validation
 quantization, and deployment analysis targeting i.MX RT series devices.
 
 ONNX Model:
-<PASTE ONNX FILE LINK HERE>
+
 
 ## How to Train
 ```bash
