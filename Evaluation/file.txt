@@ -1,0 +1,12 @@
+Model Validation 
+
+The trained model was evaluated using a separate validation and test split of the SEM image dataset.
+
+Model performance was assessed using standard classification metrics, including accuracy and class-wise precision and recall.
+
+A confusion matrix was generated to analyze class-level prediction performance and misclassification patterns.
+
+Test Accuracy: 83 %
+Precision: 84
+Recall: 82
+Average latency per image: 72 ms (CPU)
