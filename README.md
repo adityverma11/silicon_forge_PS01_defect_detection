@@ -32,8 +32,7 @@ real-time inspection.
 - Input size: 160 × 160
 - Train / Val / Test split: 70 / 15 / 15
 
-Dataset ZIP: https://drive.google.com/file/d/1_XCpBISF7uaA3ktySa_VkIgcwFbjSI9O/view?usp=sharing
-
+Dataset ZIP: [ZIP File](https://www.dropbox.com/scl/fi/5gejg72a12zbdfwi0tef8/dataset.zip?rlkey=6cctomvaarzlabdo2g5mlftuu&st=kqpaqpgo&dl=0)
 Dataset Description:
 
 The current dataset consists of 792 SEM images organized into 8 classes
