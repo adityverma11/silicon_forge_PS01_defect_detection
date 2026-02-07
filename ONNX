@@ -1,0 +1,9 @@
+ONNX Model Usage
+
+The trained MobileNetV3-Small model was exported from PyTorch to
+ONNX format for interoperability and deployment readiness.
+
+The ONNX model was used as the input artifact for verification
+using the NXP eIQ Toolkit.
+
+No architectural changes were made during the ONNX export process.
