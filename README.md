@@ -73,10 +73,4 @@ The trained PyTorch model is exported to ONNX format for edge deployment.
 The ONNX model is imported into the NXP eIQ Toolkit for compatibility validation,
 quantization, and deployment analysis targeting i.MX RT series devices.
 
-ONNX Model:
 
-
-## How to Train
-```bash
-pip install -r training/requirements.txt
-python training/train.py
