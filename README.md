@@ -75,3 +75,39 @@ quantization, and deployment analysis targeting i.MX RT series devices.
 
 
 ONNX Link: [Link](https://github.com/adityverma11/silicon_forge_PS01_defect_detection/tree/main/ONNX_Material)
+
+
+
+Phase:Phase-2(Testing the model with Hackathon Dataset)
+
+## HAckathon test dataset
+- Total images: 296
+- Number of classes: 9
+- Classes:
+  - Scratch
+  - Bridge
+  - LER
+  - Open
+  - Vias
+  - Crack
+  - Clean
+  - Other
+  - Particle
+- Input size: 160 × 160(Preprocessing)
+
+Change:-
+We mapped Particle to Others to match the no. of classes as our dataset had only 8 classes.
+
+Hackathon Dataset ZIP - [Hackathon test dataset]()
+
+## Results(Hackathon Dataset)
+- Accuracy: 39 %
+- Precision: 45
+- Recall: 41
+- Average inference latency: 1.24 ms per image (CPU)
+
+Confusion matrix is available in the `Phase2_test\` folder.
+
+
+
+
