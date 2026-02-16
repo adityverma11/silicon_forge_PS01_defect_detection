@@ -32,7 +32,23 @@ real-time inspection.
 - Input size: 160 × 160
 - Train / Val / Test split: 70 / 15 / 15
 
-Dataset ZIP:
+Dataset ZIP: [ZIP File](https://drive.google.com/drive/folders/1UKVNA51bFTDLGS0up5qFB-jTLoyAklP9?usp=sharing)
+
+Dataset Description:
+
+The current dataset consists of 792 SEM images organized into 8 classes
+for multi-class defect classification.
+
+At Phase 1, the dataset size is limited due to the difficulty of
+collecting labeled SEM defect images. Images have been gathered from
+multiple sources including GitHub repositories,
+public datasets (e.g., Kaggle), web searches(Google), and AI-generated samples(ChatGPT and Gemini).
+
+The dataset is planned to be expanded to at least 1200+ images in
+subsequent phases to improve class balance and model generalization.
+
+The available images are split into training, validation, and test sets
+and are provided as a ZIP file linked externally in this repository.
 
 
 ## Model Details
@@ -57,10 +73,5 @@ The trained PyTorch model is exported to ONNX format for edge deployment.
 The ONNX model is imported into the NXP eIQ Toolkit for compatibility validation,
 quantization, and deployment analysis targeting i.MX RT series devices.
 
-ONNX Model:
 
-
-## How to Train
-```bash
-pip install -r training/requirements.txt
-python training/train.py
+ONNX Link: [Link](https://github.com/adityverma11/silicon_forge_PS01_defect_detection/tree/main/ONNX_Material)
