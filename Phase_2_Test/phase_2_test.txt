@@ -21,3 +21,6 @@ We mapped Particle to Others to match the no. of classes as our dataset had only
 - Precision: 45
 - Recall: 41
 - Average inference latency: 1.24 ms per image (CPU)
+
+## Learnings from Phase-2 :-
+Develop an edge ai mindset as only light weight models were allowed as extra preprocessing is an overhead of the edge devices we stick to the image resizing only despite the scope improving accuracy .
