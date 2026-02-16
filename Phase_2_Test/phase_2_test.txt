@@ -1,0 +1,23 @@
+## HAckathon test dataset
+- Total images: 296
+- Number of classes: 9
+- Classes:-
+  - Scratch
+  - Bridge
+  - LER
+  - Open
+  - Vias
+  - Crack
+  - Clean
+  - Other
+  - Particle(extra class)
+- Input size: 160 × 160(Preprocessing)
+
+Change:-
+We mapped Particle to Others to match the no. of classes as our dataset had only 8 classes.
+
+## Results(Hackathon Dataset)
+- Accuracy: 39 %
+- Precision: 45
+- Recall: 41
+- Average inference latency: 1.24 ms per image (CPU)
