@@ -1,0 +1,46 @@
+2026-02-15 18:47:30,979 - Loading ONNX model
+2026-02-15 18:47:31,173 - Original dataset classes: ['Bridge', 'Clean', 'Crack', 'LER', 'Open', 'Other', 'Particle', 'Scratch', 'Vias']
+2026-02-15 18:47:31,173 - Starting inference without TTA
+2026-02-15 18:47:37,108 - Accuracy: 0.3885135135135135
+2026-02-15 18:47:37,108 - Avg Latency per image (ms): 1.2364409863948822
+2026-02-15 18:47:37,116 - 
+              precision    recall  f1-score   support
+
+      Bridge       0.31      0.34      0.32        32
+       Clean       0.25      0.61      0.35        33
+       Crack       0.82      0.29      0.43        31
+         LER       0.47      0.73      0.57        30
+        Open       0.29      0.33      0.31        30
+       Other       0.55      0.30      0.39        80
+     Scratch       0.43      0.43      0.43        30
+        Vias       0.46      0.20      0.28        30
+
+    accuracy                           0.39       296
+   macro avg       0.45      0.41      0.39       296
+weighted avg       0.46      0.39      0.39       296
+
+2026-02-15 18:47:38,920 - Confusion matrix saved
+2026-02-15 18:47:38,920 - Phase-2 inference completed successfully
+2026-02-16 18:24:59,740 - Loading ONNX model
+2026-02-16 18:24:59,876 - Original dataset classes: ['Bridge', 'Clean', 'Crack', 'LER', 'Open', 'Other', 'Particle', 'Scratch', 'Vias']
+2026-02-16 18:24:59,876 - Starting inference without TTA
+2026-02-16 18:25:02,719 - Accuracy: 0.3885135135135135
+2026-02-16 18:25:02,719 - Avg Latency per image (ms): 0.6913259625434875
+2026-02-16 18:25:02,735 - 
+              precision    recall  f1-score   support
+
+      Bridge       0.31      0.34      0.32        32
+       Clean       0.25      0.61      0.35        33
+       Crack       0.82      0.29      0.43        31
+         LER       0.47      0.73      0.57        30
+        Open       0.29      0.33      0.31        30
+       Other       0.55      0.30      0.39        80
+     Scratch       0.43      0.43      0.43        30
+        Vias       0.46      0.20      0.28        30
+
+    accuracy                           0.39       296
+   macro avg       0.45      0.41      0.39       296
+weighted avg       0.46      0.39      0.39       296
+
+2026-02-16 18:25:03,540 - Confusion matrix saved
+2026-02-16 18:25:03,540 - Phase-2 inference completed successfully
