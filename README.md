@@ -109,6 +109,8 @@ Phase 2 Demo Video- [Video](https://www.dropbox.com/scl/fi/sabxdadfzw6mp1txb9gy3
 - Recall: 41
 - Average inference latency: 1.24 ms per image (CPU)
 
+### [Inference Log](https://github.com/adityverma11/silicon_forge_PS01_defect_detection/blob/main/phase2_inference_log.txt)
+
 Confusion matrix is available in the `Phase2_test\` folder.
 
 
