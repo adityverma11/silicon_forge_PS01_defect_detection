@@ -78,7 +78,8 @@ ONNX Link: [Link](https://github.com/adityverma11/silicon_forge_PS01_defect_dete
 
 
 
-Phase:Phase-2(Testing the model with Hackathon Dataset)
+# Phase: Phase-2
+## (Testing the model with Hackathon Dataset)
 
 ## Hackathon test dataset
 - Total images: 296
