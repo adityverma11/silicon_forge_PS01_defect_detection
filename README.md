@@ -111,8 +111,55 @@ Phase 2 Demo Video- [Video](https://www.dropbox.com/scl/fi/sabxdadfzw6mp1txb9gy3
 
 ### [Inference Log](https://github.com/adityverma11/silicon_forge_PS01_defect_detection/blob/main/phase2_inference_log.txt)
 
-Confusion matrix is available in the `Phase2_test\` folder.
+# Phase: Phase-3
+## (Training and Prediction with Hackathon Dataset)
 
+## Hackathon train dataset
+- Total images: 1056
+- Number of classes: 11
+- Classes:
+  - BRIDGE
+  - CLEAN_CRACK
+  - CLEAN_LAYER
+  - CLEAN_VIA
+  - CMP
+  - CRACK
+  - LER
+  - OPEN
+  - OTHERS
+  - PARTICLE
+  - VIA
+- Input size: 128 × 128(Preprocessing)
+
+## Results(Hackathon Train Dataset)
+- Accuracy: 63 %
+- Precision: 63
+- Recall: 63
+- Average inference latency: 1.25 ms per image (CPU)
+
+
+## HAckathon Prediction Dataset
+- Total images: 401
+- Number of classes: 11
+- Classes:
+  - BRIDGE
+  - CLEAN_CRACK
+  - CLEAN_LAYER
+  - CLEAN_VIA
+  - CMP
+  - CRACK
+  - LER
+  - OPEN
+  - OTHERS
+  - PARTICLE
+  - VIA
+- Input size: 128 × 128
+
+## Results(Hackathon Prediction Dataset)
+- Accuracy:  %
+- Precision: 
+- Recall: 
+- Average inference latency:  ms per image (CPU)
 
 
 
