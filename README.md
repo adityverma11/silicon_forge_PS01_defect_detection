@@ -156,10 +156,9 @@ Phase 2 Demo Video- [Video](https://www.dropbox.com/scl/fi/sabxdadfzw6mp1txb9gy3
 - Input size: 128 × 128
 
 ## Results(Hackathon Prediction Dataset)
-- Accuracy:  %
-- Precision: 
-- Recall: 
-- Average inference latency:  ms per image (CPU)
-
+Model size before quantization - 5.83 MB
+Model size after quantization - 1.73 MB
+size of c-array .h file - 10.8 MB
+Memory footprint of final ported code (size of dec) - 2588484
 
 
