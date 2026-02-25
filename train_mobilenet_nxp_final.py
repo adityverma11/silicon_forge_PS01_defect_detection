@@ -13,9 +13,9 @@ import torch.backends.cudnn as cudnn
 
 DATA_DIR = "dataset"
 BATCH_SIZE = 32
-EPOCHS = 20
+EPOCHS = 60
 LR = 1e-4
-PATIENCE = 6
+PATIENCE = 10
 IMG_SIZE = 160
 SEED = 42
 
@@ -104,7 +104,7 @@ model.to(DEVICE)
 # LOSS + OPTIMIZER
 
 criterion = nn.CrossEntropyLoss(label_smoothing=0.1)
-optimizer = optim.Adam(model.parameters(), lr=LR)
+optimizer = optim.Adam(model.parameters(), lr=LR, weight_decay=1e-4)
 
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer,
@@ -161,7 +161,7 @@ for epoch in range(EPOCHS):
     else:
         patience_counter += 1
         if patience_counter >= PATIENCE:
-            print("Early stopping triggered.")
+            print("Early stopping triggered.")    
             break
 
 
