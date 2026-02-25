@@ -1,0 +1,25 @@
+## Hackathon Train Dataset
+-Total images: 1056
+-Number of classes: 11
+-Classes:
+  -BRIDGE
+  -CLEAN_CRACK
+  -CLEAN_LAYER
+  -CLEAN_VIA
+  -CMP
+  -CRACK
+  -LER
+  -OPEN
+  -OTHERS
+  -PARTICLE
+  -VIA
+-Input size: 128*128(Preprocessing)
+
+## Results(Hackathon_phase3_training_dataset)
+-Accuracy: 63%
+-Precision: 63
+-Recall: 63
+-Average inference latency: 1.25 ms per image(CPU)
+
+## Learnings from Phase-3 :-
+Phase-3 taught us how to transform a trained model into a fully optimized, hardware-aware, deployable embedded AI system.
